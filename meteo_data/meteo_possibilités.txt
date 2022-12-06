@@ -1,0 +1,17 @@
+Possibilités avec les données météo : 
+
+--- Ce qui est listé ci-dessous est préparé dans les fonctions du script to_import_func_meteo.py ---
+
+1) Extraire les précipitations et température moyenne, pour un point donné (une parcelle) ou toute la Suisse:
+
+- Par mois
+- Par période inter-campagne
+- Par période de croissance inter-campagne
+
+2) Plotter la carte des précipitations ou température moyenne de la Suisse:
+
+- Par mois
+- Par période, de croissance et/ou inter-campagne
+
+On peut plotter ce qu'on veut en plus sur la carte, du moment qu'on connaît ses coordonnées.
+Ainsi bien sûr qu'une légende, des infos en plus...
