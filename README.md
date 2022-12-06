@@ -28,8 +28,8 @@ Deliverables :
 Main contributors :
 - Satellite data : <a href="https://github.com/Jesshuan">Jesshuan</a>
 - Meteorological data : Myself
-- Dashboard : Marjory
-- Scientific expertise : Estelle
+- Dashboard : <a href="https://github.com/MarjoryLamothe">Marjory</a>
+- Scientific expertise : <a href="https://github.com/NoyE-R"> Estelle</a>
 - EDA & modeling : All project members
 
 Average temperature has very significantly increased over the past 40 years in Swiss protective forests, even more than in Switzerland at large which already sees its average temperatures <a href="https://www.iea.org/articles/switzerland-climate-resilience-policy-indicator">rise at a faster pace than the rest of the World</a>. 
@@ -56,7 +56,7 @@ Does NOT contain actual full meteorological files in netcdf (30 GB)
 Add a requirements.txt with the following values (1 line each): earthengine-api numpy matplotlib pandas plotly requests datetime openpyxl
 
 **Files**<br>
-*Presentation_slides.pptx*:
+*Presentation_slides.pptx*:<br>
 Slides for the presentation of the project at Jedha
 
 *meteo_1, meteo_2, meteo_3.ipynb*:
