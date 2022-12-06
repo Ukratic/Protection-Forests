@@ -2,11 +2,12 @@
 
 ## Protective Forests
 
-*Final link to dashboard and presentation coming soon*
+*Final link to presentation coming soon*
 
 An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
+<a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a>
 
-<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="400" height="400"/>
+<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="600" height="400"/>
 
 
 Datasets:
@@ -22,7 +23,7 @@ Forests in Switzerland are still increasing (in opposition to the global trend),
 Deliverables :
 - Presentation of the data, workflow and results
 - Maps featuring rate of growth (or withering) and protective effect of forests, in relation to climate
-- Dashboard with plots and results
+- Dashboard with plots and results : <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a> / <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repo</a>
 
  <a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Feuille1">Basal area and regeneration coverage rate per campaign in interactive Tableau map</a>
 
