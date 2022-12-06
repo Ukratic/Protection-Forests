@@ -6,7 +6,7 @@
 
 An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
 
-<img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="400" height="400"/>
+<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="400" height="400"/>
 
 
 Datasets:
@@ -17,7 +17,7 @@ Sat ref : <a href="https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Veget
 
 Forests in Switzerland are still increasing (in opposition to the global trend), but much less so in recent years. Moreover, area increase is not the only key factor to forests' health.
 
-<img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/backup/map1.png" alt="Source: Arealstatistik – Bundesamt für Statistik (BFS) & Amt für Bau und Infrastruktur Liechtenstein" width="600" height="400"/>
+<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/map1.png" alt="Source: Arealstatistik – Bundesamt für Statistik (BFS) & Amt für Bau und Infrastruktur Liechtenstein" width="600" height="400"/>
 
 Deliverables :
 - Presentation of the data, workflow and results
@@ -35,7 +35,7 @@ Main contributors :
 
 Average temperature has very significantly increased over the past 40 years in Swiss protective forests, even more than in Switzerland at large which already sees its average temperatures <a href="https://www.iea.org/articles/switzerland-climate-resilience-policy-indicator">rise at a faster pace than the rest of the World</a>. 
 
-<img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/meteo_data/prcp_tave.png" alt="Massive increase in temperature over the last 40 years" width="600" height="400"/>
+<img src="https://github.com/Ukratic/Protection-Forests/blob/main/meteo_data/prcp_tave.png" alt="Massive increase in temperature over the last 40 years" width="600" height="400"/>
 
 #### Navigate through the folders and files 
 **Folders**<br>
