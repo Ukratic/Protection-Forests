@@ -2,8 +2,6 @@
 
 ## Protective Forests
 
-*Final link to presentation coming soon*
-
 An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
 <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a>
 
@@ -58,6 +56,9 @@ Does NOT contain actual full meteorological files in netcdf (30 GB)
 Add a requirements.txt with the following values (1 line each): earthengine-api numpy matplotlib pandas plotly requests datetime openpyxl
 
 **Files**<br>
+*Presentation_slides.pptx*:
+Slides for the presentation of the project at Jedha
+
 *meteo_1, meteo_2, meteo_3.ipynb*:
 1. Understanding netcdf, what is in the files and how to access it
 2. Defining functions to extract data and plotting maps for given time and intervals
