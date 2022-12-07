@@ -8,8 +8,11 @@ In a nutshell:<br>
 Climate change also brings instability : drought, storms, floods... Precipitation data is not entirely conclusive on this evolution, but there are worrying signs.
 - Protection forests are generally well-managed and still expanding (though much less now than in previous decades). Their role is so important however, that it is crucial to monitor their health.<br> 
 Many such forests protect cities, towns and villages but also roads and critical infrastructure from rockfalls, avalanches, landslides...
-- A reliable model of the evolution of these forests would help to anticipate changes in their growth, what caused them and come up with preventattive measures.<br>
+- A reliable model of the evolution of these forests would help to anticipate changes in their growth, what caused them and come up with preventative measures if necessary.<br>
+
 This is the purpose of this study !<br>
+
+Short presentation (9 minutes +3 with questions) on video by the team : <a href="https://www.youtube.com/watch?v=Hbn9JkuRaWk&t=5136s">Youtube link</a><br>
 
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="600" height="400"/>
 
@@ -18,7 +21,7 @@ This is the purpose of this study !<br>
 2. Main contributors : project management
 3. Maps, plots and dashboard : featuring rate of growth (or withering) and protective effect of forests, in relation to climate
 4. Folders and files in this repository
-<br>
+
 
 #### 1. Datasets:
 - Climate and Protective Forests' evolution since 1982, provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a>
@@ -35,20 +38,20 @@ Additional documentation (in french) : <a href="https://www.researchgate.net/pro
 - Scientific expertise : <a href="https://github.com/NoyE-R"> Estelle</a>
 - EDA & modeling : All project members
 
-#### 3. Maps featuring rate of growth (or withering) and protective effect of forests, in relation to climate
-Forests in Switzerland are still increasing (in opposition to the global trend), but much less so in recent years. Moreover, area increase is not the only key factor to forests' health.<br>
- <a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Feuille1">Basal area and regeneration coverage rate per campaign in interactive Tableau map</a>
+#### 3. Maps, plots and dashboard
+Forests in Switzerland are still increasing (in opposition to the global trend), but much less so in recent years.This expansion into old farmlands is grinding to a halt.<br>
+Moreover, area increase is not the only key factor to forests' health.<br>
+<a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Feuille1">Basal area and regeneration coverage rate per campaign in interactive Tableau map</a>
 
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/map1.png" alt="Source: Arealstatistik – Bundesamt für Statistik (BFS) & Amt für Bau und Infrastruktur Liechtenstein" width="600" height="400"/>
 
 Average temperature has very significantly increased over the past 40 years in Swiss protective forests, even more than in Switzerland at large which already sees its average temperatures <a href="https://www.iea.org/articles/switzerland-climate-resilience-policy-indicator">rise at a faster pace than the rest of the World</a>. <br>
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/meteo_data/prcp_tave.png" alt="Massive increase in temperature over the last 40 years" width="600" height="400"/>
 
-
-Short presentation (9 minutes +3 with questions) on video by the team : <a href="https://www.youtube.com/watch?v=Hbn9JkuRaWk&t=5136s">Youtube link</a><br>
+Recent years have been the hottest on record but also the sharpest rise in tempereatures since the late 1980s, <a href="https://www.vogelwarte.ch/en/atlas/evolution/climate">with a marked change in annual temperatures in the past 35 years</a>.
 
 Dashboard with plots and results :<br>
-<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/qr_code.png" alt="link to dashboard" width="200" height="200"/>
+<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/qr_code.png" alt="link to dashboard" width="200" height="200"/><br>
 <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a> / <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repo</a><br>
 
 #### 4. Navigate through the folders and files 
@@ -75,7 +78,7 @@ Add a requirements.txt with the following values (1 line each): earthengine-api 
 
 **Files**<br>
 *Presentation_slides.pptx*:<br>
-Slides for the presentation of the project at Jedha
+- Slides for the presentation of the project at Jedha
 
 *meteo_1, meteo_2, meteo_3.ipynb*:
 1. Understanding netcdf, what is in the files and how to access it
@@ -100,7 +103,10 @@ Slides for the presentation of the project at Jedha
 - Convert coordinates from Swiss LV95 to WGS84
 
 <br>
-Main libraries used :<br>
-Pandas, Numpy, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit<br>
-Storage and Cloud Computing :<br>
-Google Cloud Platform (Storage, Compute Engine, Vertex AI)
+Main libraries used :
+
+*Pandas, Numpy, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit*<br>
+
+Storage and Cloud Computing :
+
+*Google Cloud Platform (Storage, Compute Engine, Vertex AI)*
