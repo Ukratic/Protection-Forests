@@ -2,7 +2,6 @@
 
 An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
 Note : Protective/Protection forests is often used interchangeably, depending on a country's specific framework.<br>
-<a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a>
 
 In a nutshell:<br>
 - Temperatures are rising considerably faster in Swiss forests than Switzerland at large, which already has temperatures rising faster than the global trend.<br>
@@ -17,8 +16,8 @@ This is the purpose of this study !<br>
 #### Summary :<br>
 1. Datasets : sources and references
 2. Main contributors : project management
-3. Maps and plots : featuring rate of growth (or withering) and protective effect of forests, in relation to climate
-4. Folders and files in this notebook
+3. Maps, plots and dashboard : featuring rate of growth (or withering) and protective effect of forests, in relation to climate
+4. Folders and files in this repository
 <br>
 
 #### 1. Datasets:
@@ -45,8 +44,12 @@ Forests in Switzerland are still increasing (in opposition to the global trend),
 Average temperature has very significantly increased over the past 40 years in Swiss protective forests, even more than in Switzerland at large which already sees its average temperatures <a href="https://www.iea.org/articles/switzerland-climate-resilience-policy-indicator">rise at a faster pace than the rest of the World</a>. <br>
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/meteo_data/prcp_tave.png" alt="Massive increase in temperature over the last 40 years" width="600" height="400"/>
 
-Dashboard with plots and results : <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a> / <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repo</a><br>
+
 Short presentation (9 minutes +3 with questions) on video by the team : <a href="https://www.youtube.com/watch?v=Hbn9JkuRaWk&t=5136s">Youtube link</a><br>
+
+Dashboard with plots and results :<br>
+<img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/qr_code.png" alt="link to dashboard" width="200" height="200"/>
+<a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a> / <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repo</a><br>
 
 #### 4. Navigate through the folders and files 
 **Folders**<br>
@@ -66,6 +69,9 @@ Does NOT contain actual full meteorological files in netcdf (30 GB)
 *Docker*:
 - Dockerfile to easily run Earth Engine (SAT notebooks in this repository) on Windows<br>
 Add a requirements.txt with the following values (1 line each): earthengine-api numpy matplotlib pandas plotly requests datetime openpyxl
+
+*backup*:<br>
+- Local backup (not uploaded) and images for this Readme.
 
 **Files**<br>
 *Presentation_slides.pptx*:<br>
