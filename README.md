@@ -10,7 +10,7 @@ Climate change also brings instability : drought, storms, floods... Precipitatio
 Many such forests protect cities, towns and villages but also roads and critical infrastructure from rockfalls, avalanches, landslides...
 - A reliable model of the evolution of these forests and main factors responsible would help to anticipate changes in their growth, what caused them and come up with preventative measures if necessary.<br>
 
-This is the purpose of this study : An overview and <br>
+This is the purpose of this study : An overview of the current situation and an attempt at identifying key elements through analysis and modeling.<br>
 
 Short presentation (9 minutes +3 with questions) on video by the team : <a href="https://www.youtube.com/watch?v=Hbn9JkuRaWk&t=5136s">Youtube link</a><br>
 
