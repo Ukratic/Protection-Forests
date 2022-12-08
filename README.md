@@ -8,7 +8,7 @@ In a nutshell:<br>
 Climate change also brings instability : drought, storms, floods... Precipitation data is not entirely conclusive on this evolution, but there are worrying signs.
 - Protection forests are generally well-managed and still expanding (though much less now than in previous decades). Their role is so important however, that it is crucial to monitor their health.<br> 
 Many such forests protect cities, towns and villages but also roads and critical infrastructure from rockfalls, avalanches, landslides...
-- A reliable model of the evolution of these forests would help to anticipate changes in their growth, what caused them and come up with preventative measures if necessary.<br>
+- A reliable model of the evolution of these forests and main factors responsible would help to anticipate changes in their growth, what caused them and come up with preventative measures if necessary.<br>
 
 This is the purpose of this study !<br>
 
@@ -41,7 +41,6 @@ Additional documentation (in french) : <a href="https://www.researchgate.net/pro
 #### 3. Maps, plots and dashboard
 Forests in Switzerland are still increasing (in opposition to the global trend), but much less so in recent years.This expansion into old farmlands is grinding to a halt.<br>
 Moreover, area increase is not the only key factor to forests' health.<br>
-<a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Feuille1">Basal area and regeneration coverage rate per campaign in interactive Tableau map</a>
 
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/map1.png" alt="Source: Arealstatistik – Bundesamt für Statistik (BFS) & Amt für Bau und Infrastruktur Liechtenstein" width="600" height="400"/>
 
@@ -52,7 +51,10 @@ Recent years have been the hottest on record but also the sharpest rise in tempe
 
 Dashboard with plots and results :<br>
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/qr_code.png" alt="link to dashboard" width="200" height="200"/><br>
-<a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a> / <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repo</a><br>
+<a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Streamlit Dashboard with EDA graphs, map of plots and forest composition, modeling results</a><br>
+<a href="https://github.com/Ukratic/Protection-forests-dashboard">Repository for the dashboard</a><br> 
+<a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Dashboard">Basal area, regeneration coverage rate and climate per campaign in interactive maps on Tableau viz</a>
+
 
 #### 4. Navigate through the folders and files 
 **Folders**<br>
@@ -103,10 +105,8 @@ Add a requirements.txt with the following values (1 line each): earthengine-api 
 - Convert coordinates from Swiss LV95 to WGS84
 
 <br>
-Main libraries used :
-
+Main libraries used :<br>
 *Pandas, Numpy, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit*<br>
 
-Storage and Cloud Computing :
-
+Storage and Cloud Computing :<br>
 *Google Cloud Platform (Storage, Compute Engine, Vertex AI)*
