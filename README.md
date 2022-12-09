@@ -33,9 +33,9 @@ Additional documentation (in french) : <a href="https://www.researchgate.net/pro
 
 #### 2. Main contributors :
 - Satellite data : <a href="https://github.com/Jesshuan">Jesshuan</a>
-- Meteorological data : Myself
-- Dashboard : <a href="https://github.com/MarjoryLamothe">Marjory</a>
+- Dashboard (streamlit) : <a href="https://github.com/MarjoryLamothe">Marjory</a>
 - Scientific expertise : <a href="https://github.com/NoyE-R"> Estelle</a>
+- Meteorological data, dashboard (Tableau) : Myself
 - EDA & modeling : All project members
 
 #### 3. Maps, plots and dashboard
