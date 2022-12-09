@@ -49,7 +49,7 @@ Average temperature has very significantly increased over the past 40 years in S
 
 Recent years have been the hottest on record but also the sharpest rise in tempereatures since the late 1980s, <a href="https://www.vogelwarte.ch/en/atlas/evolution/climate">with a marked change in annual temperatures in the past 35 years</a>.
 
-Dashboard with plots and results :
+**Dashboards** :
 - EDA graphs, map of plots and forest composition, modeling results : <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Streamlit Dashboard</a> & <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repository</a>
 - Basal area, regeneration coverage rate and climate per campaign : <a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Dashboard">Interactive maps on Tableau</a><br>
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/qr_code.png" alt="link to dashboard" width="200" height="200"/><br>
@@ -105,6 +105,7 @@ Add a requirements.txt with the following values (1 line each): earthengine-api 
 - Convert coordinates from Swiss LV95 to WGS84
 
 <br>
+
 Main libraries used :<br>
 *Pandas, Numpy, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit*
 
