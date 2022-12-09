@@ -3,7 +3,7 @@
 An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
 Note : Protective/Protection forests is often used interchangeably, depending on a country's specific framework.<br>
 
-In a nutshell:<br>
+In a nutshell :<br>
 - Temperatures are rising considerably faster in Swiss forests than Switzerland at large, which already has temperatures rising faster than the global trend.<br>
 Climate change also brings instability : drought, storms, floods... Precipitation data is not entirely conclusive on this evolution, but there are worrying signs.
 - Protection forests are generally well-managed and still expanding (though much less now than in previous decades). Their role is so important however, that it is crucial to monitor their health.<br> 
@@ -49,65 +49,64 @@ Average temperature has very significantly increased over the past 40 years in S
 
 Recent years have been the hottest on record but also the sharpest rise in tempereatures since the late 1980s, <a href="https://www.vogelwarte.ch/en/atlas/evolution/climate">with a marked change in annual temperatures in the past 35 years</a>.
 
-Dashboard with plots and results :<br>
+Dashboard with plots and results :
+- EDA graphs, map of plots and forest composition, modeling results : <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Streamlit Dashboard</a> & <a href="https://github.com/Ukratic/Protection-forests-dashboard">Repository</a>
+- Basal area, regeneration coverage rate and climate per campaign : <a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Dashboard">Interactive maps on Tableau</a><br>
 <img src="https://github.com/Ukratic/Protection-Forests/blob/main/backup/qr_code.png" alt="link to dashboard" width="200" height="200"/><br>
-<a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Streamlit Dashboard with EDA graphs, map of plots and forest composition, modeling results</a><br>
-<a href="https://github.com/Ukratic/Protection-forests-dashboard">Repository for the dashboard</a><br> 
-<a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Dashboard">Basal area, regeneration coverage rate and climate per campaign in interactive maps on Tableau viz</a>
 
 Best models all required use of field data. Almost-duplicate features (with Basal Area) such as the Stand Density Index were not used, but Diameter at Breast Height was.
 
 #### 4. Navigate through the folders and files 
 **Folders**<br>
-*NFI_data*:
+*NFI_data* :
 - Source data from the Swiss National Forest Inventory. Variable names & description in German
 - Concatenation & initial EDA notebooks
 - Modified files from concatenation and translation of variables and description in French
 
-*meteo_data*:
+*meteo_data* :
 - Excel file containing precipitations (in cm/square km) and temperature averages (in °C) for each forest plot
 - Example plots and maps for each collection campaign<br>
 Does NOT contain actual full meteorological files in netcdf (30 GB)
 
-*docs*:<br>
+*docs* :<br>
 - Useful documentation on Silva Protect Swiss framework and conversion from Swiss to WGS84 coordinates
 
-*Docker*:
+*Docker* :
 - Dockerfile to easily run Earth Engine (SAT notebooks in this repository) on Windows<br>
 Add a requirements.txt with the following values (1 line each): earthengine-api numpy matplotlib pandas plotly requests datetime openpyxl
 
-*backup*:<br>
+*backup* :<br>
 - Local backup (not uploaded) and images for this Readme.
 
 **Files**<br>
 *Presentation_slides.pptx*:<br>
 - Slides for the presentation of the project at Jedha
 
-*meteo_1, meteo_2, meteo_3.ipynb*:
+*meteo_1, meteo_2, meteo_3.ipynb* :
 1. Understanding netcdf, what is in the files and how to access it
 2. Defining functions to extract data and plotting maps for given time and intervals
 3. Trends in temperature and precipitations through the years
 
-*to_import_func_meteo.py*:
+*to_import_func_meteo.py* :
 - To import predefined meteorological functions (provided you have the netcdf files) 
 
-*eda.ipynb*:
+*eda.ipynb* :
 - Understanding data from NFI collection campaigns, preparing the presentation and graphs
 
-*modeling.ipynb*:
+*modeling.ipynb* :
 - Modeling to describe the current state of protective forests and determine useful features and targets
 - Attempt to predict the future state of protective forests
 
-*SAT_img_to_array_LANDSAT-5, SAT_aggreg.ipynb*:
+*SAT_img_to_array_LANDSAT-5, SAT_aggreg.ipynb* :
 - Collect satellite imagery for NFI campaigns (results in 8 to 10 GB files for each)
 - Aggregate results into a csv file with NDVI,EVI,NDMI,NDWI,DSWI formulas
 
-*coords_swiss_to_geo.ipynb*:<br>
+*coords_swiss_to_geo.ipynb* :<br>
 - Convert coordinates from Swiss LV95 to WGS84
 
 <br>
 Main libraries used :<br>
-*Pandas, Numpy, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit*<br>
+*Pandas, Numpy, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit*
 
 Storage and Cloud Computing :<br>
 *Google Cloud Platform (Storage, Compute Engine, Vertex AI)*
