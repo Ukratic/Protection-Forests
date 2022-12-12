@@ -21,6 +21,7 @@ Short presentation (9 minutes +3 with questions) on video by the team : <a href=
 2. Main contributors : project management
 3. Maps, plots and dashboard : featuring rate of growth (or withering) and protective effect of forests, in relation to climate
 4. Folders and files in this repository
+5. Conclusion and remarks
 
 
 #### 1. Datasets:
@@ -103,7 +104,6 @@ Add a requirements.txt with the following values (1 line each): earthengine-api 
 
 *coords_swiss_to_geo.ipynb* :<br>
 - Convert coordinates from Swiss LV95 to WGS84
-
 <br>
 
 Main libraries used :<br>
@@ -111,3 +111,14 @@ Main libraries used :<br>
 
 Storage and Cloud Computing :<br>
 *Google Cloud Platform (Storage, Compute Engine, Vertex AI)*
+
+
+#### 5. Conclusion and remarks
+Forests are still expanding but the recent stump (yes, pun intended) in growth for many of them warrants caution. The very fast evolution (on the grand scheme of things but also in fact in a tree's or our lifetime) of climate will not alleviate those concerns and should be taken into account. This is with little exaggeration of vital importance in the observed population, since Switzerland's protection forests do not only safeguard the ecosystem of plants and wildlife but also towns, roads, fields...
+Monitoring their stable growth is very important to maintain their relevance in that respect ; not enough young trees and the population will eventually dwindle, too many young trees (in place of adult ones, not numerically) and the protective rate drops.
+
+The (preliminary) evaluation of features has revealed the prevalence of some data's importance as well as the little contribution to modeling of some time-consuming efforts. There is more to be done on that front and this path could considerably improve the conditions and relative cost of the next field data collection campaigns.
+LIDAR-equipped drones have recently started to enter our forests and can be used to provide a reliable stand volume estimate of the forest (or derive one from a plot) much faster than by commonly used human-operated measurement tools.
+
+This could also contribute to provide more data points that would help to build a reliable predictive model of those forests, therefore further assisting the monitoring effort.
+Initial Deep Learning with GRU RNNs tests led to some headway and are an interesting path forward, but we would caution against going too far into so-called "black box" models without fully exploring features' importance and relationships first, in more easily explainable models.
