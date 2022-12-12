@@ -1,5 +1,7 @@
 ## Protective Forests
 
+<a href="https://share.vidyard.com/watch/gwYhepB6NKxd2aaWvwqcFU?">P6 Jedha Certification video link</a>
+
 An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
 Note : Protective/Protection forests is often used interchangeably, depending on a country's specific framework.<br>
 
